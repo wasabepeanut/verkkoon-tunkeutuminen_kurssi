@@ -133,7 +133,17 @@ By looking around for a while, I found out from the DNS packets that the user ha
 
 ![image](https://github.com/user-attachments/assets/d03ea79d-6bbc-49a2-b6c7-c177f70b020f)
 
-# i)
+# i) My capture
+In this task I will be analyzing my own capture and explaining what is going on. 
+For starters I chose enp0s3 as my target, and opened Mozilla Firefox.
+
+![image](https://github.com/user-attachments/assets/3901cd53-5efd-4f7c-8c28-ff5d786d32cd)
+
+As we can see in the picture, the first thing happening is a DNS request from the source (me). This happened when I opened the browser, so in a nutshell I am requesting communication from the web browser Mozilla Firefox. It takes about 0.03 seconds for me to get a response from the web browser. 
+
+![image](https://github.com/user-attachments/assets/9f6e8ddf-412e-4073-8ddd-45a4c0570428)
+
+In details when I am making the request I am first "creating" my request which my device will then form into a packet. The packet will then go through the layers of TCP/IP model and proceed securely to the destination, in this case the destination IP is 10.0.2.3. When the packet is securely delivered, the receiver will then process my request and do the same for their response. The response packet will then be forwarded to the original (source), in this case 10.0.2.15. This is a what happens between a communication of two devices.
 
 
 # References 📖
