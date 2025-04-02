@@ -143,7 +143,7 @@ As we can see in the picture, the first thing happening is a DNS request from th
 
 ![image](https://github.com/user-attachments/assets/9f6e8ddf-412e-4073-8ddd-45a4c0570428)
 
-In details when I am making the request I am first "creating" my request which my device will then form into a packet. The packet will then go through the layers of TCP/IP model and proceed securely to the destination, in this case the destination IP is 10.0.2.3. When the packet is securely delivered, the receiver will then process my request and do the same for their response. The response packet will then be forwarded to the original (source), in this case 10.0.2.15. This is a what happens between a communication of two devices.
+In details when I am making the request I am first "creating" my request which my device will then form into a packet. The packet will then go through the layers of TCP/IP model and proceed securely to the destination, in this case the destination IP is 10.0.2.3. When the packet is securely delivered, the receiver will then process my request and do the same for their response. The response packet will then be forwarded to the original (source), in this case 10.0.2.15. This is what happens between a communication of two devices.
 
 
 # References 📖
