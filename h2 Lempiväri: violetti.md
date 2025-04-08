@@ -60,6 +60,7 @@ First I used the previously used command to check the access.log file.
 
     sudo cat /var/log/apache2/access.log
 
+![image](https://github.com/user-attachments/assets/0d3f3d1d-e77b-4156-a476-7444327ad87a)
 
 
 
