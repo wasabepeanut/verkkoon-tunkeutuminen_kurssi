@@ -105,7 +105,7 @@ Now I should be capturing traffic with ngrep. After that I executed the portscan
 # g) Agent 🕵️‍♂️
 I changed the useragent with the command:
 
-    nmap -p 80 --script-args http.useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -A 127.0.0.1
+    sudo nmap -p 80 --script-args http.useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -A 127.0.0.1
 
 This changes every requests using http.useragent to blend a little bit better with the other entries. (bob van der staak. 17.11.2023)
 I then proceeded using Wireshark to see how it is displayed there. I filtered only packets containing keyword "User-Agent"
@@ -115,9 +115,17 @@ I then proceeded using Wireshark to see how it is displayed there. I filtered on
 As we can see, it seems like a legit browser.
 
 # h) Smaller traces
-For this task I now made a new portscan and then printed the output of the access-log file.
+For this task I first executed a new portscan and then printed the output of the access-log file and also captured the traffic with ngrep.
 
+    sudo nmap -p 80 --script-args http.useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -A 127.0.0.1
+    sudo cat /var/log/apache2/access.log
+    sudo ngrep -d lo -i nmap
+    
+    
+Output of access.log:
 ![image](https://github.com/user-attachments/assets/a8de516f-8a07-4d38-b4a8-bcbf7ce40714)
+
+Output of ngrep capture:
 
 As we can see in the image, the "nmap" logs appear with the new name now.
 
