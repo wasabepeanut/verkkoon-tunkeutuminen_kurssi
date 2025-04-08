@@ -112,6 +112,8 @@ I then proceeded using Wireshark to see how it is displayed there. I filtered on
 
 ![image](https://github.com/user-attachments/assets/9ebf9a32-8a17-4080-a7f0-4cbcffc114f2)
 
+As we can see, it seems like a legit browser.
+
 # h) 
 
 
