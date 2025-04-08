@@ -38,6 +38,7 @@ The last log is an "favicon" GET request which are used for the small "logos" on
 For this task, I first disconnected my network on the virtualbox for safety measures and then gave the command:
 
     sudo nmap -A localhost
+(Karvinen 26.3.2025).
 
 Then I looked for the port 80/tcp.
 
@@ -65,6 +66,7 @@ First I used the previously used command to check the access.log file.
 As we can see from the picture, the word nmap can be seen in the logs. Analyzing the the text "Nmap Scripting Engine" we can guess that these requests are from the scripts earlier, which might also explain why the requests sizes are not that big.
 By using 'grep "nmap"' for example it is possible to find all log entries including the text "nmap" from the log file.
 
+
 # e) Wire Sharking
 First I launched Wireshark with the command:
 
@@ -74,6 +76,7 @@ Then I chose Loopback as my target and then started sniffing.
 On another terminal, I executed portscan with only port 80/tcp and then filtered the wireshark to only show entries with nmap.
 
     sudo nmap -T4 -vv -A -p 80 localhost
+(Karvinen 26.3.2025).
 
 (On wireshark):
 
@@ -81,7 +84,20 @@ On another terminal, I executed portscan with only port 80/tcp and then filtered
 
 ![image](https://github.com/user-attachments/assets/8d69915b-d306-4f84-866e-bafa8e407dfa)
 
+This whole portscan contained a total of 354 packets and it only took about 8 seconds.
 
+
+f) Net grep
+For this task I first installed ngrep with:
+
+    sudo apt-get update
+    sudo apt-get install ngrep
+
+Then I executed the command (Karvinen 26.3.2025):
+
+    sudo ngrep -d lo -i nmap
+(Karvinen 26.3.2025).
+Now I should be capturing traffic with ngrep. Then I executed the portscan.
 
 
 # References
@@ -91,5 +107,7 @@ Caltagirone, S. 7.2013. The Diamond Model of Intrusion Analysis. Threat Intellig
 DavidJBianco. 17.1.2014. The Pyramid of Pain. Blogger - Enterprise Detection & Response. URL: https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html. Accessed: 8.4.2025.
 
 hector adam. 11.3.2016. Where are Apache file access logs stored?. Unix & Linux Stack Exchange. URL: https://unix.stackexchange.com/questions/38978/where-are-apache-file-access-logs-stored. Accessed: 8.4.2025.
+
+Karvinen, T. 26.3.2025. Verkkoon tunkeutuminen ja tiedustelu. Tero Karvinen. URL: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. Accessed: 8.4.2025.
 
 MDN web docs. 14.3.2025. An overview of HTTP. URL: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview. Accessed: 8.4.2025.
