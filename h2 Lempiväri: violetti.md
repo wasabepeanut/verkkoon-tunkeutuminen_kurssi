@@ -110,8 +110,9 @@ I changed the useragent with the command:
 This changes every requests using http.useragent to blend a little bit better with the other entries. (bob van der staak. 17.11.2023)
 I then proceeded using Wireshark to see how it is displayed there. I filtered only packets containing keyword "User-Agent"
 
+![image](https://github.com/user-attachments/assets/9ebf9a32-8a17-4080-a7f0-4cbcffc114f2)
 
-#h) 
+# h) 
 
 
 # References
