@@ -13,6 +13,11 @@ To start this task I will first proceed to install Apache for my virtualbox.
     sudo apt-get update
     sudo apt-get install apache2
 
+Then I proceeded to my public default browser by typing "localhost" on Firefox.
+
+![image](https://github.com/user-attachments/assets/4fdfb7d6-7c98-4f1d-ac2b-66e0657848f7)
+
+
 # 
 
 # References
