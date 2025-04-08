@@ -97,8 +97,9 @@ Then I executed the command (Karvinen 26.3.2025):
 
     sudo ngrep -d lo -i nmap
 (Karvinen 26.3.2025).
-Now I should be capturing traffic with ngrep. Then I executed the portscan.
+Now I should be capturing traffic with ngrep. After that I executed the portscan.
 
+![image](https://github.com/user-attachments/assets/a13debbe-56f3-4a07-b67d-07b354bad7d1)
 
 # References
 
