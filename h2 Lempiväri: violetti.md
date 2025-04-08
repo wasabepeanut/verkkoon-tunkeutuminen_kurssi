@@ -2,10 +2,15 @@
 The Pyramid of Pain is a visual model of seven layers of indicators used to detect adversary activity. 
 The layers describe the amount of "pain" caused to the adversary, the bottom of the pyramid being the least painful and the pinnacle of the pyramid the most painful. (DavidJBianco 17.1.2014)
 
+![image](https://github.com/user-attachments/assets/aa3bcde4-069d-466e-8336-7fde3b957e0c)
+
+
 
 # x) Diamond Model 💎
 Diamond model is a visual model that represent four core features, each forming an edge of a diamond (thus the name), that illustrate the fundamental relationships between the features. 
 The model is used to analyze and enhance understanding of malicious activity. (Caltagirone 7.2013)
+
+![image](https://github.com/user-attachments/assets/d64a975b-b91d-4168-92a4-77564fe1e8bb)
 
 
 # a) Apache log
