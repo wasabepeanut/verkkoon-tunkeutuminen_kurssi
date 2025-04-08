@@ -116,6 +116,8 @@ As we can see, it seems like a legit browser.
 
 # h) 
 
+![image](https://github.com/user-attachments/assets/a8de516f-8a07-4d38-b4a8-bcbf7ce40714)
+
 
 # References
 
