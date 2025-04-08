@@ -101,6 +101,10 @@ Now I should be capturing traffic with ngrep. After that I executed the portscan
 
 ![image](https://github.com/user-attachments/assets/a13debbe-56f3-4a07-b67d-07b354bad7d1)
 
+
+g) Agent 🕵️‍♂️
+
+h) 
 # References
 
 Caltagirone, S. 7.2013. The Diamond Model of Intrusion Analysis. Threat Intelligence Academy. URL: https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf. Accessed: 8.4.2025.
