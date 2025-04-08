@@ -21,7 +21,7 @@ Apache works!
 
 Now to analyze my logs regarding my request to access this site, I printed the output of the access.log file in the path /var/log/apache2/access.log (hector adam 11.3.2016).
 
-        sudo cat /var/log/apache2/access.log
+    sudo cat /var/log/apache2/access.log
 
 ![image](https://github.com/user-attachments/assets/c5d7112c-f248-4e46-8d47-3e95c858e1cd)
 
