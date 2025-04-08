@@ -77,6 +77,7 @@ On another terminal, I executed portscan and then filtered the wireshark to only
 
     frame contains "nmap"
 
+![image](https://github.com/user-attachments/assets/09a2242a-b620-4dab-8de3-d6dd7eee2bf8)
 
 
 
