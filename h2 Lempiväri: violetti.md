@@ -62,6 +62,22 @@ First I used the previously used command to check the access.log file.
 
 ![image](https://github.com/user-attachments/assets/0d3f3d1d-e77b-4156-a476-7444327ad87a)
 
+As we can see from the picture, the word nmap can be seen in the logs. Analyzing the the text "Nmap Scripting Engine" we can guess that these requests are from the scripts earlier, which might also explain why the requests sizes are not that big.
+By using 'grep "nmap"' for example it is possible to find all log entries including the text "nmap" from the log file.
+
+# e) Wire Sharking
+First I launched Wireshark with the command:
+
+    wireshark
+
+Then I chose Loopback as my target and then started sniffing.
+On another terminal, I executed portscan and then filtered the wireshark to only show entries with nmap.
+
+(On wireshark):
+
+    frame contains "nmap"
+
+
 
 
 # References
