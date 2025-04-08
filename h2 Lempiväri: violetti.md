@@ -7,6 +7,7 @@ The layers describe the amount of "pain" caused to the adversary, the bottom of 
 Diamond model is a visual model that represent four core features, each forming an edge of a diamond (thus the name), that illustrate the fundamental relationships between the features. 
 The model is used to analyze and enhance understanding of malicious activity. (Caltagirone 7.2013)
 
+
 # a) Apache log
 To start this task I will first proceed to install Apache for my virtualbox.
 
@@ -33,9 +34,18 @@ The second log ' "GET /icons/openlogo-75.png" is almost the same but now we are 
 The last log is an "favicon" GET request which are used for the small "logos" on browser tabs. The status code 404 indicates that there was an error retrieving this data (MDN web docs 14.3.2025).
 
 
-# b) 
+# b) Nmapped
+For this task, I first disconnected my network on the virtualbox for safety measures and then gave the command:
 
-# 
+    sudo nmap -A localhost
+
+Then I looked for the port 80/tcp.
+
+From the output, we can see that the port is open under the "STATE", the service is HTTP and the server version is Apache.
+From the portscan we can tell that the Apache is working fine and the website should also be visible for us.
+
+# c) 
+
 
 # References
 
