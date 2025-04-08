@@ -79,7 +79,8 @@ On another terminal, I executed portscan with only port 80/tcp and then filtered
 
     frame contains "nmap"
 
-![image](https://github.com/user-attachments/assets/84ad9b87-f254-4574-812c-ac7233d5685d)
+![image](https://github.com/user-attachments/assets/8d69915b-d306-4f84-866e-bafa8e407dfa)
+
 
 
 
