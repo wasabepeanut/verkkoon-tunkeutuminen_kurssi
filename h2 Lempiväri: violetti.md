@@ -7,6 +7,11 @@ The layers describe the amount of "pain" caused to the adversary, the bottom of 
 Diamond model is a visual model that represent four core features, each forming an edge of a diamond (thus the name), that illustrate the fundamental relationships between the features. 
 The model is used to analyze and enhance understanding of malicious activity. (Caltagirone 7.2013)
 
+# a) Apache log
+To start this task I will first proceed to install Apache for my virtualbox.
+
+    sudo apt-get update
+    sudo apt-get install apache2
 
 # 
 
