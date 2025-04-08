@@ -126,6 +126,8 @@ Output of access.log:
 ![image](https://github.com/user-attachments/assets/a8de516f-8a07-4d38-b4a8-bcbf7ce40714)
 
 Output of ngrep capture:
+![image](https://github.com/user-attachments/assets/02455b98-6890-4412-b77e-2b6e338f275b)
+
 
 As we can see in the image, the "nmap" logs appear with the new name now.
 
