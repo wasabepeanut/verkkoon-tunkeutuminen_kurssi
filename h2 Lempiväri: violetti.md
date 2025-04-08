@@ -48,8 +48,18 @@ From the portscan we can tell that the Apache is working fine and the website sh
 
 
 # c) Scripts
+The scripts that were automatically on using the parameter -A were:
 
 ![image](https://github.com/user-attachments/assets/c9ae8308-1be4-4ee6-8f16-1210f0d604ef)
+
+The scripts usage can be determined from their names.
+
+
+# d) Log traces
+First I used the previously used command to check the access.log file.
+
+    sudo cat /var/log/apache2/access.log
+
 
 
 
