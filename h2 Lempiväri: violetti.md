@@ -87,7 +87,7 @@ On another terminal, I executed portscan with only port 80/tcp and then filtered
 This whole portscan contained a total of 354 packets and it only took about 8 seconds.
 
 
-f) Net grep
+# f) Net grep
 For this task I first installed ngrep with:
 
     sudo apt-get update
@@ -102,10 +102,21 @@ Now I should be capturing traffic with ngrep. After that I executed the portscan
 ![image](https://github.com/user-attachments/assets/a13debbe-56f3-4a07-b67d-07b354bad7d1)
 
 
-g) Agent 🕵️‍♂️
+# g) Agent 🕵️‍♂️
+I changed the useragent with the command:
 
-h) 
+    nmap -p 80 --script-args http.useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -A 127.0.0.1
+
+This changes every requests using http.useragent to blend a little bit better with the other entries. (bob van der staak. 17.11.2023)
+I then proceeded using Wireshark to see how it is displayed there. I filtered only packets containing keyword "User-Agent"
+
+
+#h) 
+
+
 # References
+
+bob van der staak. 17.11.2023. Evading Detection while using nmap. Infosec Write-ups. URL: https://infosecwriteups.com/evading-detection-while-using-nmap-69633df091f3. Accessed: 9.4.2025.
 
 Caltagirone, S. 7.2013. The Diamond Model of Intrusion Analysis. Threat Intelligence Academy. URL: https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf. Accessed: 8.4.2025.
 
