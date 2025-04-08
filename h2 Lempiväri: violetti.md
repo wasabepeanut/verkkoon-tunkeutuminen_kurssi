@@ -17,6 +17,14 @@ Then I proceeded to my public default browser by typing "localhost" on Firefox.
 
 ![image](https://github.com/user-attachments/assets/4fdfb7d6-7c98-4f1d-ac2b-66e0657848f7)
 
+Apache works!
+
+Now to analyze my logs regarding my request to access this site, I printed the output of the access.log file in the path /var/log/apache2/access.log (hector adam 11.3.2016).
+
+        sudo cat /var/log/apache2/access.log
+
+![image](https://github.com/user-attachments/assets/c5d7112c-f248-4e46-8d47-3e95c858e1cd)
+
 
 # 
 
