@@ -22,6 +22,8 @@ Then I proceeded to my public default browser by typing "localhost" on Firefox.
 
 # References
 
+Caltagirone, S. 7.2013. The Diamond Model of Intrusion Analysis. Threat Intelligence Academy. URL: https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf. Accessed: 8.4.2025.
+
 DavidJBianco. 17.1.2014. The Pyramid of Pain. Blogger - Enterprise Detection & Response. URL: https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html. Accessed: 8.4.2025.
 
-Caltagirone, S. 7.2013. The Diamond Model of Intrusion Analysis. Threat Intelligence Academy. URL: https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf. Accessed: 8.4.2025.
+hector adam. 11.3.2016. Where are Apache file access logs stored?. Unix & Linux Stack Exchange. URL: https://unix.stackexchange.com/questions/38978/where-are-apache-file-access-logs-stored. Accessed: 8.4.2025.
