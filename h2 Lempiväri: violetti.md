@@ -71,13 +71,14 @@ First I launched Wireshark with the command:
     wireshark
 
 Then I chose Loopback as my target and then started sniffing.
-On another terminal, I executed portscan and then filtered the wireshark to only show entries with nmap.
+On another terminal, I executed portscan with only port 80/tcp and then filtered the wireshark to only show entries with nmap.
+
+    sudo nmap -T4 -vv -A -p 80 localhost
 
 (On wireshark):
 
     frame contains "nmap"
 
-![image](https://github.com/user-attachments/assets/09a2242a-b620-4dab-8de3-d6dd7eee2bf8)
 
 
 
