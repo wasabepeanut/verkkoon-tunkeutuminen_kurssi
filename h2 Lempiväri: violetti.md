@@ -114,9 +114,12 @@ I then proceeded using Wireshark to see how it is displayed there. I filtered on
 
 As we can see, it seems like a legit browser.
 
-# h) 
+# h) Smaller traces
+For this task I now made a new portscan and then printed the output of the access-log file.
 
 ![image](https://github.com/user-attachments/assets/a8de516f-8a07-4d38-b4a8-bcbf7ce40714)
+
+As we can see in the image, the "nmap" logs appear with the new name now.
 
 
 # References
