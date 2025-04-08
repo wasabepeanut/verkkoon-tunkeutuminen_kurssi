@@ -41,10 +41,16 @@ For this task, I first disconnected my network on the virtualbox for safety meas
 
 Then I looked for the port 80/tcp.
 
+![image](https://github.com/user-attachments/assets/47c9c4d7-ea88-412c-9d8a-c041fe062608)
+
 From the output, we can see that the port is open under the "STATE", the service is HTTP and the server version is Apache.
 From the portscan we can tell that the Apache is working fine and the website should also be visible for us.
 
-# c) 
+
+# c) Scripts
+
+![image](https://github.com/user-attachments/assets/c9ae8308-1be4-4ee6-8f16-1210f0d604ef)
+
 
 
 # References
