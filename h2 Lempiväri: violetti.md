@@ -25,6 +25,15 @@ Now to analyze my logs regarding my request to access this site, I printed the o
 
 ![image](https://github.com/user-attachments/assets/c5d7112c-f248-4e46-8d47-3e95c858e1cd)
 
+As we can see from the picture there are 3 log entries in the file. The first log ' "GET / HTTP/1.1" 200 3380... ' indicates that first we are making a GET request from resource / (root) with protocol version HTTP/1.1.
+Then we have numbers 200 and 3380. 200 is a status code which means that the request is succesful. The latter is the size of the response in bytes (MDN web docs 14.3.2025).
+
+The second log ' "GET /icons/openlogo-75.png" is almost the same but now we are retrieving data from another resource. The file is a "png" file, which usually tells us that the data is an image.
+
+The last log is an "favicon" GET request which are used for the small "logos" on browser tabs. The status code 404 indicates that there was an error retrieving this data (MDN web docs 14.3.2025).
+
+
+# b) 
 
 # 
 
@@ -35,3 +44,5 @@ Caltagirone, S. 7.2013. The Diamond Model of Intrusion Analysis. Threat Intellig
 DavidJBianco. 17.1.2014. The Pyramid of Pain. Blogger - Enterprise Detection & Response. URL: https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html. Accessed: 8.4.2025.
 
 hector adam. 11.3.2016. Where are Apache file access logs stored?. Unix & Linux Stack Exchange. URL: https://unix.stackexchange.com/questions/38978/where-are-apache-file-access-logs-stored. Accessed: 8.4.2025.
+
+MDN web docs. 14.3.2025. An overview of HTTP. URL: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview. Accessed: 8.4.2025.
