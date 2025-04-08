@@ -93,7 +93,7 @@ For this task I first installed ngrep with:
     sudo apt-get update
     sudo apt-get install ngrep
 
-Then I executed the command (Karvinen 26.3.2025):
+Then I executed the command:
 
     sudo ngrep -d lo -i nmap
 (Karvinen 26.3.2025).
