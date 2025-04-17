@@ -17,7 +17,7 @@
  
 # a) WebSDR
 
-For this task I used NA5B WebSDR which operates in the U.S, Washington DC Area.
+For this task I used [NA5B WebSDR](http://na5b.com:8901/) which operates in the U.S, Washington DC Area.
 
 When I first opened the page, I could already hear some narrating from some radio. I then started to play around a little, clicking and testing what and how the buttons would change the sound.
 
@@ -38,7 +38,19 @@ As we can see from the picture, the sizes of the signals being send were differe
 
 This clearly made the sound way better and have less background noises.
 It also in most cases was better for the size of the receiver to be a bit wider than the signal. This was true for atleast the smaller sized signals. 
-Narrowing the receiver did although reduce the background noises more.
+Narrowing the receiver did although reduce the background noises more. 
+
+
+# b) rtl_433
+
+For this task I will be installing rtl_433 for automatic analyzation.
+
+    sudo apt-get update
+    sudo apt-get install rtl-433
+
+And after installation, I tried to run rtl_433
+
+    rtl_433 -h
 
 # References
 
@@ -46,4 +58,7 @@ Cornelius. 4.1.2022. Decode 433.92 MHz weather station data. One Transistor. URL
 
 hubmartin. 18.1.2019. Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs. Youtube. URL: https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s. Accessed: 16.4.2025.
 
+Karvinen, T. 26.3.2025. Verkkoon tunkeutuminen ja tiedustelu. Tero Karvinen. URL: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. Accessed: 17.4.2025.
+
+merbanan. 19.2.2025. rtl_433. GitHub. URL: https://github.com/merbanan/rtl_433. Accessed: 17.4.2025.
 
