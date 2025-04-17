@@ -67,6 +67,10 @@ For this task I will be using the previously installed rtl_433 to analyze a [fil
 
 The "-r" parameter in this command is to notify that we will be executing rtl_433 on a file. The "M" in the file name is for frequency and the "k" is for sample rate (merbanan 19.2.2025).
 
+![image](https://github.com/user-attachments/assets/c90bc963-f106-4a5e-8c96-ac131ea4c5f4)
+
+![image](https://github.com/user-attachments/assets/63bdc1ad-0a57-4026-912c-6cb1b46b0450)
+
 
 
 # References
