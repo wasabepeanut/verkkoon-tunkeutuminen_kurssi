@@ -71,6 +71,13 @@ The "-r" parameter in this command is to notify that we will be executing rtl_43
 
 ![image](https://github.com/user-attachments/assets/63bdc1ad-0a57-4026-912c-6cb1b46b0450)
 
+From the output, we see alot of entries with repeating names Nexa-Security, KlikAanKlikUit-Switch and Proove-Security. From their names and details we can determine that these might be some kind of devices like a lightswitch and some kinds of security devices.
+The security devices seem to have information like house code, state, unit, and command. These might be some kinds of safety alarms which are at the moment turned off.
+
+
+# d) Too compex 16?
+
+
 
 
 # References
