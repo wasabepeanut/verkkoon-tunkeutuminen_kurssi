@@ -108,6 +108,7 @@ After restarting terminal I executed the program.
 
     urh
 
+![image](https://github.com/user-attachments/assets/d4db5d09-320d-4322-85bc-9ba009aed5ea)
 
 
 f) 
