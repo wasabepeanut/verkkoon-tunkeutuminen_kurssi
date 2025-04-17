@@ -77,7 +77,7 @@ The security devices seem to have information like house code, state, unit, and 
 
 # d) Too compex 16?
 
-For this task I had to convert my file to a cs8 file.
+For this task I had to convert my [file](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s) to a cs8 file.
 
 At first I tried to simply just rename the file from complex16s -> cs8
 
@@ -113,10 +113,18 @@ After restarting terminal I executed the program.
 
 f) Overview of a sample
 
-For this task I will be analyzing a sample with URH.
+For this task I will be analyzing a [sample](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s) with URH.
 
 ![image](https://github.com/user-attachments/assets/3dee82e9-bb9e-4567-8d7c-969ca8d31a00)
 
+This is what the sample looks like at first glance. Some information can already be determined from the name.
+
+Information:
+- Length: 5.36 seconds. 
+- Frequency: 433.912 MHz.
+- Date: 12.4.2025 11:38:05
+
+To my eyes, it looks like there was 3 separate signals send from the device. This might mean that the device button was pressed 3 times with about 1,3 second intervals, with the last one being a little longer. 
 
 
 # References
