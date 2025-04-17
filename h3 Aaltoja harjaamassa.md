@@ -104,11 +104,13 @@ Then I will execute a command for the urh to work globally
 ![image](https://github.com/user-attachments/assets/6fb3bf69-8288-4b76-a785-1e6c1ef5bb2c)
 
 
-After restarting terminal, lastly execute the program.
+After restarting terminal I executed the program.
 
     urh
 
 
+
+f) 
 
 # References
 
