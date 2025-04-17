@@ -77,7 +77,13 @@ The security devices seem to have information like house code, state, unit, and 
 
 # d) Too compex 16?
 
+# e) Ultimate
 
+    sudo apt-get update
+    sudo apt-get -y install pipx
+    pipx install urh
+    pipx ensurepath
+    urh
 
 
 # References
