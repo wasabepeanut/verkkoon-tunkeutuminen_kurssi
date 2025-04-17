@@ -77,6 +77,10 @@ The security devices seem to have information like house code, state, unit, and 
 
 # d) Too compex 16?
 
+For this task I had to convert my file to a cs8 file.
+
+I was not able to find any help regarding this.
+
 
 # e) Ultimate
 
@@ -98,7 +102,6 @@ After restarting terminal, lastly execute the program.
     urh
 
 
-![image](https://github.com/user-attachments/assets/b9d4ed23-7c36-4ab7-b2ff-d31f26dec3b8)
 
 # References
 
