@@ -115,6 +115,8 @@ f) Overview of a sample
 
 For this task I will be analyzing a sample with URH.
 
+![image](https://github.com/user-attachments/assets/3dee82e9-bb9e-4567-8d7c-969ca8d31a00)
+
 
 
 # References
