@@ -98,6 +98,8 @@ After restarting terminal, lastly execute the program.
     urh
 
 
+![image](https://github.com/user-attachments/assets/b9d4ed23-7c36-4ab7-b2ff-d31f26dec3b8)
+
 # References
 
 Cornelius. 4.1.2022. Decode 433.92 MHz weather station data. One Transistor. URL: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Accessed: 17.4.2025.
