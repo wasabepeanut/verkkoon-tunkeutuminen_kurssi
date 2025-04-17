@@ -85,6 +85,8 @@ The security devices seem to have information like house code, state, unit, and 
     pipx ensurepath
     urh
 
+![image](https://github.com/user-attachments/assets/6fb3bf69-8288-4b76-a785-1e6c1ef5bb2c)
+
 
 # References
 
