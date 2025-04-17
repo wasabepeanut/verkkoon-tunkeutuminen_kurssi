@@ -26,6 +26,8 @@ Information of the audio:
 - Bandwidth: MW-160
 - Modulation: AM
 
+This seemed to be a Latin-American radio (judging from the language of the music).
+
 After playing around a little, I could determine that most of the signals work on the AM mode. Changing the mode from AM to anything else on most cases altered the sounds or made it unrecognizable.
 
 ![image](https://github.com/user-attachments/assets/d8eeb8f6-9c2e-49a6-a44a-e6cd7193cb6e)
