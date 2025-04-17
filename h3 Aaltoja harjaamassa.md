@@ -87,7 +87,7 @@ then I tried to run the file
 
 ![image](https://github.com/user-attachments/assets/d2126734-3d0e-4ae0-8dfc-c379fc92ec74)
 
-
+The file seemed to have the same similar content to the file in the previous task. (Karvinen 26.3.2025)
 
 # e) Ultimate
 
