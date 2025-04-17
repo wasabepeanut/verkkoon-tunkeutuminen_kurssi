@@ -111,7 +111,11 @@ After restarting terminal I executed the program.
 ![image](https://github.com/user-attachments/assets/d4db5d09-320d-4322-85bc-9ba009aed5ea)
 
 
-f) 
+f) Overview of a sample
+
+For this task I will be analyzing a sample with URH.
+
+
 
 # References
 
