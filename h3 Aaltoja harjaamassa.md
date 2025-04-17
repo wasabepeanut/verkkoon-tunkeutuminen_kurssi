@@ -77,15 +77,25 @@ The security devices seem to have information like house code, state, unit, and 
 
 # d) Too compex 16?
 
+
 # e) Ultimate
+
+For this task I will be installing Ultimate Radio Hacker.
 
     sudo apt-get update
     sudo apt-get -y install pipx
     pipx install urh
+
+Then I will execute a command for the urh to work globally
+
     pipx ensurepath
-    urh
 
 ![image](https://github.com/user-attachments/assets/6fb3bf69-8288-4b76-a785-1e6c1ef5bb2c)
+
+
+After restarting terminal, lastly execute the program.
+
+    urh
 
 
 # References
