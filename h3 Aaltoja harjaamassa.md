@@ -52,6 +52,13 @@ And after installation, I tried to run rtl_433
 
     rtl_433 -h
 
+![image](https://github.com/user-attachments/assets/0f9ec8be-8910-42e4-a7ba-0fe72b02d29d)
+    
+![image](https://github.com/user-attachments/assets/47307a63-c4c9-41ad-a069-ddeb359b486f)
+
+Installation seemed to work.
+
+
 # References
 
 Cornelius. 4.1.2022. Decode 433.92 MHz weather station data. One Transistor. URL: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Accessed: 17.4.2025.
