@@ -122,7 +122,7 @@ For this task I will be analyzing a [sample](https://terokarvinen.com/verkkoon-t
 This is what the sample looks like at first glance. Some information can already be determined from the name.
 
 Information:
-- Length: 5.36 seconds. 
+- Length: ~ 5.49 seconds. 
 - Frequency: 433.912 MHz.
 - Date: 12.4.2025 11:38:05
 
