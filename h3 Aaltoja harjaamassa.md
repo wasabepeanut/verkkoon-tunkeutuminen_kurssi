@@ -56,7 +56,17 @@ And after installation, I tried to run rtl_433
     
 ![image](https://github.com/user-attachments/assets/47307a63-c4c9-41ad-a069-ddeb359b486f)
 
-Installation seemed to work.
+Installation seemed to work. (merbanan 19.2.2025)
+
+
+# c) Automatic analyzation
+
+For this task I will be using the previously installed rtl_433 to analyze a [file](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/Converted_433.92M_2000k.cs8). (Karvinen 26.3.2025)
+
+    rtl_433 -r Converted_433.92M_2000k.cs8
+
+The "-r" parameter in this command is to notify that we will be executing rtl_433 on a file. The "M" in the file name is for frequency and the "k" is for sample rate (merbanan 19.2.2025).
+
 
 
 # References
