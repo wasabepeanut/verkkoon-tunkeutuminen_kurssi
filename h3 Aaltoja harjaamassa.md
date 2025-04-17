@@ -85,6 +85,8 @@ then I tried to run the file
 
     rtl_433 -r Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
 
+![image](https://github.com/user-attachments/assets/d2126734-3d0e-4ae0-8dfc-c379fc92ec74)
+
 
 
 # e) Ultimate
