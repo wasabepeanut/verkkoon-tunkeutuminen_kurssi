@@ -3,11 +3,11 @@ Some products/items that make use of RFID that I own are e.g. passport, HSL tran
 
 When we think about the overall safety of these products, they are not that well protected since they are easily scannable and exploitable if you manage to get your hands on one. Although they are easily exploitable, the information you might get from exploiting them might not be as expected or useful.
 
-Out of these items, smartphone would be the most valuable since it has a payment tool that uses NFC technology. An exploiter could get access to my payment card information by cloning it or physically stealing my phone. Both of these methods or pretty hard to execute in real life, since cloning requires the victim to use the phone very close to the cloning device for the NFC technology to be exploited (Stokes 24.2.2023). 
-
-Overall I think the safety of my RFID products are not that secured (excluding my phone) since they do not have any actual security measures such as passwords. 
+Out of these items, smartphone would be the most valuable since it has a payment tool that uses NFC technology. An exploiter could get access to my payment card information by cloning it or physically stealing my phone. Both of these methods or pretty hard to execute in real life, since cloning requires the victim to use the phone very close to the cloning device for the NFC technology to be exploited (Stokes 24.2.2023).  
 
 I do keep my belongings pretty well secured in my pockets which does make the RFID hacking difficult, since the clothes add a layer of protection against NFC scannings. So in reality the only way to hack into my items would be to physically steal them and after perform the RFID attacks.
+
+Overall I think the safety of my RFID products are kind of secured (excluding my phone) since it is difficult to perform a RFID hacking without being close to the target. The items do not have any actual security measures such as passwords, so anyone with the right equipment could easily hack into my items.
 
 
 # 2) Tutustu APDU komentojen rakenteeseen (voit käyttää tekoälyä tutustumiseen)
