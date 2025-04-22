@@ -7,6 +7,8 @@ Out of these items, smartphone would be the most valuable since it has a payment
 
 Overall I think the safety of my RFID products are not that secured (excluding my phone) since they do not have any actual security measures such as passwords. 
 
+I do keep my belongings pretty well secured in my pockets which does make the RFID hacking difficult, since the clothes add a layer of protection against NFC scannings. So in reality the only way to hack into my items would be to physically steal them and after perform the RFID attacks.
+
 
 # 2) Tutustu APDU komentojen rakenteeseen (voit käyttää tekoälyä tutustumiseen)
 An APDU commands are formed by hex byte sequences with variable lengths that are structured into distinct components (in order) CLA, INS, P1, P2 and other optional components (Olosunde 4.4.2023). For example an APDU command could look like "00 A4 04 00 07 D2 76 00 00 85 01 01".
