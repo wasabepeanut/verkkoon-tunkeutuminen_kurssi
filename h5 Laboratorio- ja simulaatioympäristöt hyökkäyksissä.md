@@ -15,6 +15,10 @@ After my VM Image was downloaded, I extracted the content and then double-clicke
 
 Now I have installed a Mininet VM. I will test to see if it works.
 
+![image](https://github.com/user-attachments/assets/d39ff571-981b-4730-a278-584718591009)
+
+Seems to work fine.
+
 
 # References
 
