@@ -11,6 +11,8 @@ Secondly I had to download a virtualization system. As I already had Oracle Virt
 
 After my VM Image was downloaded, I extracted the content and then double-clicked on the ovf file. This took me straight to Oracle VirtualBox and after that I imported the file with default settings.
 
+![image](https://github.com/user-attachments/assets/716e28fb-aac3-4e55-87ea-c64a9d37b6a5)
+
 
 
 # References
