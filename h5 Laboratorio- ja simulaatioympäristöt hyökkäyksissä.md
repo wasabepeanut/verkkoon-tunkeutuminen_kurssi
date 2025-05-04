@@ -20,6 +20,24 @@ And lastly checking to see if the system has Golang now
 
 ![image](https://github.com/user-attachments/assets/976d7ee4-557d-4192-8186-36bf70eb05ee)
 
+Building the Evilginx binary with the "make" command.
+
+    make
+
+![image](https://github.com/user-attachments/assets/13b190da-8f93-4f93-ac8c-97a59da54368)
+
+At first it did not seem to work. I tried asking ChatGPT for assistance and according to it, I have to first be in the Evilginx project directory before giving the command.
+
+With ChatGPT I also cloned the evilginx github repository to my home directory and committed the make command.
+
+    git clone https://github.com/kgretzky/evilginx2.git
+    cd evilginx2
+    make
+
+This seemed to work. According to the instructions, the built binary should be under build/.
+This is what I found in the folder
+
+![image](https://github.com/user-attachments/assets/ae381da8-393e-4048-8f5b-a168c490d8f5)
 
 
 **nvm**
