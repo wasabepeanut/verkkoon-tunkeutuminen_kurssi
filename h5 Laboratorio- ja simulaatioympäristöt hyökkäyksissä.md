@@ -3,6 +3,11 @@ For this task I will install the tool Evilginx following the [instructions](http
 
 To make Evilginx work we will first need to install the tools Golang and nvm.
 
+**Golang**
+
+        rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.2.linux-amd64.tar.gz
+
+
 **nvm**
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -31,7 +36,6 @@ Checking to see that we have node.js with the right version
 
 ![image](https://github.com/user-attachments/assets/4b0c4b3c-e61d-49eb-b0cc-4e6a6c68509a)
 
-**Evilpuppet**
 
 
 # Mininet
@@ -56,7 +60,7 @@ Seems to work fine.
 
 # References
 
-Evilginx. 2025. Local Installation Guide. URL: https://help.evilginx.com/pro/installation/local. Accessed: 4.5.2025.
+Evilginx. 2025. Getting Started. URL: https://help.evilginx.com/community/getting-started. Accessed: 4.5.2025.
 
 kgretzky. 21.1.2025. evilginx2. GitHub. URL: https://github.com/kgretzky/evilginx2. Accessed: 4.5.2025.
 
