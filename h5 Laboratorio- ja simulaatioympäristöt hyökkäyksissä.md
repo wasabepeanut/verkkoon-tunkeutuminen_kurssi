@@ -18,6 +18,8 @@ And lastly checking to see if the system has Golang now
 
     go version
 
+![image](https://github.com/user-attachments/assets/976d7ee4-557d-4192-8186-36bf70eb05ee)
+
 
 **nvm**
 
