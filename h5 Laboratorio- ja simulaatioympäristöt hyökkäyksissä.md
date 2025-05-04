@@ -60,7 +60,7 @@ Seems to work fine.
 
 # References
 
-Evilginx. 2025. Getting Started. URL: https://help.evilginx.com/community/getting-started. Accessed: 4.5.2025.
+Evilginx. 2025. Getting Started. URL: https://help.evilginx.com/category/getting-started. Accessed: 4.5.2025.
 
 kgretzky. 21.1.2025. evilginx2. GitHub. URL: https://github.com/kgretzky/evilginx2. Accessed: 4.5.2025.
 
