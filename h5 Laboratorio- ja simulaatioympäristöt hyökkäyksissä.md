@@ -7,6 +7,13 @@ nvm
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
+![image](https://github.com/user-attachments/assets/004e50ac-3ad1-4b78-b95e-a049b9f43a73)
+
+After installation, I restarted terminal and checked if I have nvm installed now.
+
+![Uploading image.png…]()
+
+
 node.js
 
     nvm install 18
