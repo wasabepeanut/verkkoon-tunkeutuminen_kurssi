@@ -1,4 +1,18 @@
-# a) Tutustu seuraavaan työkaluun
+# a) Evilginx2
+For this task I will install the tool Evilginx following the [instructions](https://help.evilginx.com/pro/installation/local).
+
+To make Evilginx Pro work we will first need to install some dependencies.
+
+nvm
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+node.js
+
+    nvm install 18
+    nvm use 18
+
+
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
@@ -22,6 +36,9 @@ Seems to work fine.
 
 # References
 
-Mininet. 2022. Download/Get Started With Mininet. URL: https://mininet.org/download/#option-1-mininet-vm-installation-easy-recommended. Accessed: 4.5.2025.
+Evilginx. 2025. Local Installation Guide. URL: https://help.evilginx.com/pro/installation/local. Accessed: 4.5.2025.
 
 kgretzky. 21.1.2025. evilginx2. GitHub. URL: https://github.com/kgretzky/evilginx2. Accessed: 4.5.2025.
+
+Mininet. 2022. Download/Get Started With Mininet. URL: https://mininet.org/download/#option-1-mininet-vm-installation-easy-recommended. Accessed: 4.5.2025.
+
