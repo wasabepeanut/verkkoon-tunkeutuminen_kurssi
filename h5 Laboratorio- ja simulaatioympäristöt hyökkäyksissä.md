@@ -105,24 +105,25 @@ Now I have installed a Mininet VM. I will test to see if it works.
 Seems to work fine.
 
 
-<!DOCTYPE html>
+"<!DOCTYPE html>
 <html>
 <head>
     <title>Sign in</title>
 </head>
 <body>
-    <h2>Login</h2>
-    <form method="POST" action="/post_login">
-        <label>Email:</label><br>
-        <input type="text" name="email"><br><br>
+<h2>Login</h2>
+<form method="POST" action="/post_login">
+<label>Email:</label><br>
+<input type="text" name="email"><br><br>
 
-        <label>Password:</label><br>
-        <input type="password" name="password"><br><br>
+<label>Password:</label><br>
+<input type="password" name="password"><br><br>
 
-        <input type="submit" value="Login">
-    </form>
+<input type="submit" value="Login">
+</form>
 </body>
-</html>
+</html>"
+
 
 
 
