@@ -81,7 +81,7 @@ I noticed that some links could be clicked so I tried following the link "www.am
 ![image](https://github.com/user-attachments/assets/f4685ac4-ef40-49e8-95f3-f869ea7a024a)
 
 This took me to Amazon (pretty obvious from the name).
-
+This site is the official website for Amazon, except it has been "tampered" with Evilginx. Evilginx acts as a "Adversary in the Middle" that serves as a legitimate page for malicious acts (Nichols 8.14.2024).
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
@@ -112,4 +112,6 @@ kgretzky. 21.1.2025. evilginx2. GitHub. URL: https://github.com/kgretzky/evilgin
 Mininet. 2022. Download/Get Started With Mininet. URL: https://mininet.org/download/#option-1-mininet-vm-installation-easy-recommended. Accessed: 4.5.2025.
 
 Nate. 6.12.2024. Evilginx Quick-start Guide. Medium. URL: https://nateahess.medium.com/evilginx-quickstart-guide-b4124e8dc8f3. Accessed: 7.5.2025.
+
+Nichols, B. 8.14.2024. Catching the Phish – Detecting Evilginx & AiTM. deepwatch. URL: https://www.deepwatch.com/labs/catching-the-phish-detecting-evilginx-aitm/. Accessed: 7.5.2025.
 
