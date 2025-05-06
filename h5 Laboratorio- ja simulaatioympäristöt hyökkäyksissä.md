@@ -52,6 +52,18 @@ After building evilginx, I proceeded to run the tool normally:
 
 Now I will proceed to simulate an phishing attack with the tool following the steps from a [guide](https://nateahess.medium.com/evilginx-quickstart-guide-b4124e8dc8f3).
 
+First I will install [phislets](https://github.com/An0nUD4Y/Evilginx2-Phishlets), which are small config files used to configure Evilginx for attacks (Nate 6.12.2024).
+
+    git clone https://github.com/An0nUD4Y/Evilginx2-Phishlets
+
+Moving the phislets to the right directory:
+
+    cp -r Evilginx2-Phislets/* /home/duyp/evilginx/phislets/
+
+Checking the contents:
+
+    ls -l /home/duyp/evilginx/phislets/
+
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
