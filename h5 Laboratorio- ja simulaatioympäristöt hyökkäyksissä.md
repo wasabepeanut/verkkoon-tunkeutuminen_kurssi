@@ -1,4 +1,6 @@
-# a) Evilginx2
+# a) Evilginx
+## Installation
+
 For this task I will install the tool Evilginx following the [instructions](https://help.evilginx.com/pro/installation/local).
 
 To make Evilginx work we will first need to install the tools Golang and nvm.
@@ -46,6 +48,7 @@ After building evilginx, I proceeded to run the tool normally:
 ![image](https://github.com/user-attachments/assets/7b55d774-af6a-4b8d-9312-42311749f325)
 
 
+## In action
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
