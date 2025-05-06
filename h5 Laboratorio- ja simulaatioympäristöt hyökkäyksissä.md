@@ -39,6 +39,13 @@ This is what I found in the folder
 
 ![image](https://github.com/user-attachments/assets/ae381da8-393e-4048-8f5b-a168c490d8f5)
 
+After building evilginx, I proceeded to run the tool normally:
+
+    sudo ./build/evilginx
+
+![image](https://github.com/user-attachments/assets/7b55d774-af6a-4b8d-9312-42311749f325)
+
+
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
