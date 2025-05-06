@@ -67,6 +67,10 @@ Checking the contents:
 ![image](https://github.com/user-attachments/assets/e736595a-2175-4a5a-8617-5503a529251c)
 
 Seems right.
+Now that I have the phislets, I can run the tool again with the phislets
+
+    sudo ./build/evilginx -p ./phislets/
+
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
