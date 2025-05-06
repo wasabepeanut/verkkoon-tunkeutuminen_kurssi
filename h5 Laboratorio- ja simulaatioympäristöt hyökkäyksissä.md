@@ -122,3 +122,18 @@ Nate. 6.12.2024. Evilginx Quick-start Guide. Medium. URL: https://nateahess.medi
 
 Nichols, B. 8.14.2024. Catching the Phish – Detecting Evilginx & AiTM. deepwatch. URL: https://www.deepwatch.com/labs/catching-the-phish-detecting-evilginx-aitm/. Accessed: 7.5.2025.
 
+
+name: myphishlet
+author: you
+host: login.fake.com
+
+templates:
+  - login.html
+
+sub_filters:
+  - {triggers_on: login.fake.com, orig_sub: '', domain: '', search: '', replace: ''}
+
+auth_tokens: []
+auth_url: /
+auth_post_url: /post_login
+
