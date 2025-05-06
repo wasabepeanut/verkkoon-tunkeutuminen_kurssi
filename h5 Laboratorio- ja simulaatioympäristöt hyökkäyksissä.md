@@ -87,9 +87,8 @@ I will not configure my own phislet, as instructed in the guide, since it might 
 
 
 # Mininet
-To complete the upcoming tasks, I will have to install Mininet VM.
 
-I followed the instructions on the [official Mininet website](https://mininet.org/download/#option-1-mininet-vm-installation-easy-recommended).
+I followed the instructions on the [official Mininet website](https://mininet.org/download/#option-1-mininet-vm-installation-easy-recommended) to install Mininet on Oracle Virtualbox.
 
 First I downloaded the [VM Image](https://github.com/mininet/mininet/releases/download/2.3.0/mininet-2.3.0-210211-ubuntu-20.04.1-legacy-server-amd64-ovf.zip).
 
