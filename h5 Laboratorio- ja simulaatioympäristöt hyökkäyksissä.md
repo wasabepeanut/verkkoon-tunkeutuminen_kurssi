@@ -50,6 +50,9 @@ After building evilginx, I proceeded to run the tool normally:
 
 ## In action
 
+Now I will proceed to simulate an phishing attack with the tool following the steps from a [guide](https://nateahess.medium.com/evilginx-quickstart-guide-b4124e8dc8f3).
+
+
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
 
@@ -77,4 +80,6 @@ Evilginx. 2025. Getting Started. URL: https://help.evilginx.com/category/getting
 kgretzky. 21.1.2025. evilginx2. GitHub. URL: https://github.com/kgretzky/evilginx2. Accessed: 4.5.2025.
 
 Mininet. 2022. Download/Get Started With Mininet. URL: https://mininet.org/download/#option-1-mininet-vm-installation-easy-recommended. Accessed: 4.5.2025.
+
+Nate. 6.12.2024. Evilginx Quick-start Guide. Medium. URL: https://nateahess.medium.com/evilginx-quickstart-guide-b4124e8dc8f3. Accessed: 7.5.2025.
 
