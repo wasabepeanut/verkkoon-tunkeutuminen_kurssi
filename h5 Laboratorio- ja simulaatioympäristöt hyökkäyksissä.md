@@ -83,6 +83,9 @@ I noticed that some links could be clicked so I tried following the link "www.am
 This took me to Amazon (pretty obvious from the name).
 This site is the official website for Amazon, except it has been "tampered" with Evilginx. Evilginx acts as a "Adversary in the Middle" that serves as a legitimate page for malicious acts (Nichols 8.14.2024).
 
+I will not configure my own phislet, as instructed in the guide, since it might involve some security risks.
+
+
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
 
