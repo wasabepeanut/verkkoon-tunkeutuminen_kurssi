@@ -40,36 +40,6 @@ This is what I found in the folder
 ![image](https://github.com/user-attachments/assets/ae381da8-393e-4048-8f5b-a168c490d8f5)
 
 
-**nvm**
-
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-
-After installation, I restarted terminal and checked if I have nvm installed now.
-
-    nvm --version
-
-![image](https://github.com/user-attachments/assets/004e50ac-3ad1-4b78-b95e-a049b9f43a73)
-
-Now we can proceed to installing node.js.
-
-**node.js**
-
-    nvm install 18
-
-![image](https://github.com/user-attachments/assets/336b06af-6bae-4076-a236-459cb8f8feb9)
-
-    nvm use 18
-    
-![image](https://github.com/user-attachments/assets/af09ef48-eff2-46fc-92e3-ee4e1af97b86)
-
-Checking to see that we have node.js with the right version
-
-    node -v
-
-![image](https://github.com/user-attachments/assets/4b0c4b3c-e61d-49eb-b0cc-4e6a6c68509a)
-
-
-
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
 
