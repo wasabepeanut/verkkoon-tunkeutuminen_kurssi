@@ -117,3 +117,35 @@ Mininet. 2022. Download/Get Started With Mininet. URL: https://mininet.org/downl
 Nate. 6.12.2024. Evilginx Quick-start Guide. Medium. URL: https://nateahess.medium.com/evilginx-quickstart-guide-b4124e8dc8f3. Accessed: 7.5.2025.
 
 Nichols, B. 8.14.2024. Catching the Phish – Detecting Evilginx & AiTM. deepwatch. URL: https://www.deepwatch.com/labs/catching-the-phish-detecting-evilginx-aitm/. Accessed: 7.5.2025.
+
+
+name: testlocal
+author: you
+min_ver: 2.3.0
+
+proxy_hosts:
+  - {phish_sub: login, orig_sub: '', domain: test.local, session: true, is_landing: true}
+
+sub_filters:
+  - {triggers_on: test.local, orig_sub: '', domain: '', search: '', replace: ''}
+
+auth_tokens: []
+auth_url: /
+auth_post_url: /post_login
+
+credentials:
+  username:
+    key: email
+    search: 'email'
+    type: post
+  password:
+    key: password
+    search: 'password'
+    type: post
+
+login:
+  domain: test.local
+  path: /
+
+force_post: false
+
