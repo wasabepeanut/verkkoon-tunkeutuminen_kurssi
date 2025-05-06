@@ -71,6 +71,17 @@ Now that I have the phislets, I can run the tool again with the phislets
 
     sudo ./build/evilginx -p ./phislets/
 
+![image](https://github.com/user-attachments/assets/f6c44f3e-4a72-4cb4-b1f7-1b5ffcb97fa6)
+
+![image](https://github.com/user-attachments/assets/5dc56743-5024-4d39-a7cf-bd64cd07366c)
+
+This is what the output looked like.
+I noticed that some links could be clicked so I tried following the link "www.amazon.com".
+
+![image](https://github.com/user-attachments/assets/f4685ac4-ef40-49e8-95f3-f869ea7a024a)
+
+This took me to Amazon (pretty obvious from the name).
+
 
 # Mininet
 To complete the upcoming tasks, I will have to install Mininet VM.
