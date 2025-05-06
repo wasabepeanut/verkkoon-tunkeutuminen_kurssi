@@ -9,7 +9,6 @@ To make Evilginx work we will first need to install the tools Golang and nvm.
 
 First I downloaded the [file](https://go.dev/dl/).
 
-    mv /usr/local
     rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.2.linux-amd64.tar.gz
 
 Adding /usr/local/go/bin to the PATH environment variable.
