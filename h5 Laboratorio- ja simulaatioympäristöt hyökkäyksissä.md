@@ -105,6 +105,30 @@ Now I have installed a Mininet VM. I will test to see if it works.
 Seems to work fine.
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form method="POST" action="/post_login">
+        <label>Email:</label><br>
+        <input type="text" name="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+
+
+
+
+
+
 # References
 
 Evilginx. 2025. Getting Started. URL: https://help.evilginx.com/category/getting-started. Accessed: 4.5.2025.
