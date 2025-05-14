@@ -13,7 +13,7 @@ After logging in, I went to the README tab.
 
 I proceeded to download the folder for VirtualBox from the [Proton Drive link](https://drive.proton.me/urls/Q4WPB23W7R#Qk4nxMH8Q4oQ) (since I am using VBox).
 
-After the download was complete I double clicked the ".ova" file in the folder and imported the file to VirtualBox.
+After the download was complete I double clicked the ".ova" file in the folder and imported the file to VirtualBox with default settings.
 
 
 
