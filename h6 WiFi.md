@@ -43,7 +43,7 @@ I simply executed the command:
 
 ![image](https://github.com/user-attachments/assets/9ddd849a-96f5-410b-a5c8-dcb5cfacf90d)
 
-flag{2162ae75cdefc5f731dfed4efa8b92743d1fb556}
+**Flag:** flag{2162ae75cdefc5f731dfed4efa8b92743d1fb556}
 
 
 ### 01. What is the channel that the wifi-global Access Point is currently using?
@@ -81,7 +81,7 @@ Starting wlan0 again.
 
 ![image](https://github.com/user-attachments/assets/5dbe42ae-88e6-45ab-8e27-5b7c1f7e7e5b)
 
-
+**Flag:** 44
 
 ### 02. What is the MAC of the wifi-IT client?
 ### 03. What is the probe of 78:C1:A7:BF:72:46?
