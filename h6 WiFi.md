@@ -21,6 +21,8 @@ I double clicked the ".ova" file in the folder and imported the file to VirtualB
 
 ![image](https://github.com/user-attachments/assets/5957ff03-69cd-46df-88c1-6c72c9861578)
 
+Then I launched the VM.
+
 
 
 
