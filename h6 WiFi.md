@@ -32,7 +32,7 @@ Logging in user
 We are in!
 Now also before I start doing any challenges, I changed the keyboard layout to Finnish by committing this command in the terminal.
 
-        setxkbmap fi
+    setxkbmap fi
 
 ## Challenges
 ### 00. What is the contents of the file /root/flag.txt on the VM?
@@ -50,11 +50,23 @@ flag{2162ae75cdefc5f731dfed4efa8b92743d1fb556}
 
 First I tried committing the command:
 
-        sudo airodump-ng wlan0
+    sudo airodump-ng wlan0
 
 ![image](https://github.com/user-attachments/assets/abfc8bea-def2-44e0-8e08-c2e4682daac3)
 
 This gave me a lot of entries, but not the "wifi-global". I tried using grep with the same command.
+
+    sudo airodump-ng wlan0 | grep wifi-global
+
+This did not work.
+I decided to use the walkthrough for help :).
+
+Creating a new directory to store all the captures.
+
+    mkdir ~/wifi
+    sudo airmon-ng start wlan0
+
+
 
 ### 02. What is the MAC of the wifi-IT client?
 ### 03. What is the probe of 78:C1:A7:BF:72:46?
