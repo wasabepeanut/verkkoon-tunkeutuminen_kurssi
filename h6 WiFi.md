@@ -84,6 +84,13 @@ Starting wlan0 again.
 **Flag:** 44
 
 ### 02. What is the MAC of the wifi-IT client?
+
+Since we know the channel of "wifi-IT" from the previous task' screenshot, we can only scan the specific channel:
+
+    sudo airodump-ng wlan0mon -w ~/wifi/scan11 --manufacturer --wps -c11
+
+**Flag:** "10:F9:6F:AC:53:52"
+
 ### 03. What is the probe of 78:C1:A7:BF:72:46?
 ### 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
 ### 06. What is the flag on the AP router of the wifi-guest network?
