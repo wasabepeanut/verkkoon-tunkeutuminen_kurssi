@@ -74,12 +74,13 @@ I got some kind of a warning. I ran the recommended command:
 
 ![image](https://github.com/user-attachments/assets/0838edcc-da0d-4a10-8422-c5b2bdc82aff)
 
+Starting wlan0 again.
+
+    sudo airmon-ng start wlan0
     sudo airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 
-sudo airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
-Interface wlan0mon: 
-ioctl(SIOCGIFINDEX) failed: No such device
-Failed initializing wireless card(s): wlan0mon
+![image](https://github.com/user-attachments/assets/5dbe42ae-88e6-45ab-8e27-5b7c1f7e7e5b)
+
 
 
 ### 02. What is the MAC of the wifi-IT client?
