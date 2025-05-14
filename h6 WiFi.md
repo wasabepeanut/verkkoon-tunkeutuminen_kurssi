@@ -98,9 +98,6 @@ The probe for this can be found on the previous screenshots, when looking at the
 
 **Flag:** wifi-offices
 
-### 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
-### 06. What is the flag on the AP router of the wifi-guest network?
-### 07. What is the flag on the wifi-old AP website?
 
 # b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
