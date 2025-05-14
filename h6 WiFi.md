@@ -79,7 +79,8 @@ Starting wlan0 again.
     sudo airmon-ng start wlan0
     sudo airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 
-![image](https://github.com/user-attachments/assets/5dbe42ae-88e6-45ab-8e27-5b7c1f7e7e5b)
+![image](https://github.com/user-attachments/assets/951c8795-c17b-4099-9913-76592f51b0cb)
+
 
 **Flag:** 44
 
@@ -93,7 +94,9 @@ Since we know the channel of "wifi-IT" from the previous task' screenshot, we ca
 
 ### 03. What is the probe of 78:C1:A7:BF:72:46?
 
-The probe for this can be found on the previous screenshots, when looking at the MAC addresses
+The probe for this can be found on the previous screenshots, when looking at the MAC addresses.
+
+**Flag:** wifi-offices
 
 ### 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
 ### 06. What is the flag on the AP router of the wifi-guest network?
