@@ -92,6 +92,9 @@ Since we know the channel of "wifi-IT" from the previous task' screenshot, we ca
 **Flag:** 10:F9:6F:AC:53:52
 
 ### 03. What is the probe of 78:C1:A7:BF:72:46?
+
+The probe for this can be found on the previous screenshots, when looking at the MAC addresses
+
 ### 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
 ### 06. What is the flag on the AP router of the wifi-guest network?
 ### 07. What is the flag on the wifi-old AP website?
