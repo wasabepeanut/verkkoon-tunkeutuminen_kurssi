@@ -59,7 +59,7 @@ This gave me a lot of entries, but not the "wifi-global". I tried using grep wit
     sudo airodump-ng wlan0 | grep wifi-global
 
 This did not work.
-I decided to use the walkthrough for help :).
+I decided to use the [walkthrough](https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/#01-what-is-the-channel-that-the-wifi-global-access-point-ap-is-currently-using) for help :).
 
 Creating a new directory to store all the captures.
 
@@ -123,5 +123,7 @@ Seeing how "easy" it is for attackers to manipulate and infiltrate into networks
 In most cases though WLANs are pretty secure and nothing usually happens, atleast in the private ones.
 
 # References
+
+r4ulcl. 9.8.2023. Walkthrough WiFiChallenge Lab v2.0. R4ULCL. URL: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/#01-what-is-the-channel-that-the-wifi-global-access-point-ap-is-currently-using. Accessed: 14.5.2025.
 
 r4ulcl. 21.12.2024. WiFiChallenge Lab. URL: https://lab.wifichallenge.com/README. Accessed: 14.5.2025.
