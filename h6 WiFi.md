@@ -48,6 +48,14 @@ flag{2162ae75cdefc5f731dfed4efa8b92743d1fb556}
 
 ### 01. What is the channel that the wifi-global Access Point is currently using?
 
+First I tried committing the command:
+
+        sudo airodump-ng wlan0
+
+![image](https://github.com/user-attachments/assets/abfc8bea-def2-44e0-8e08-c2e4682daac3)
+
+This gave me a lot of entries, but not the "wifi-global". I tried using grep with the same command.
+
 ### 02. What is the MAC of the wifi-IT client?
 ### 03. What is the probe of 78:C1:A7:BF:72:46?
 ### 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
