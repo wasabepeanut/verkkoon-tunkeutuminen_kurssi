@@ -66,6 +66,20 @@ Creating a new directory to store all the captures.
     mkdir ~/wifi
     sudo airmon-ng start wlan0
 
+![image](https://github.com/user-attachments/assets/7077309b-1442-4f0d-b6e5-0bfa56582131)
+
+I got some kind of a warning. I ran the recommended command:
+
+    sudo airmon-ng check kill
+
+![image](https://github.com/user-attachments/assets/0838edcc-da0d-4a10-8422-c5b2bdc82aff)
+
+    sudo airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
+
+sudo airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
+Interface wlan0mon: 
+ioctl(SIOCGIFINDEX) failed: No such device
+Failed initializing wireless card(s): wlan0mon
 
 
 ### 02. What is the MAC of the wifi-IT client?
